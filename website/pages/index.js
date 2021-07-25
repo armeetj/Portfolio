@@ -30,8 +30,8 @@ export default function Home() {
               <a href="#">Socials</a>
             </div>
             <div className={styles.navRight}>
-              <button><a href="#">Blog</a></button>
-              <button><a href="#">Resume</a></button>
+              <button><a className={styles.blogButton} href="#">Blog</a></button>
+              <button><a className={styles.resumeButton} href="#">Resume</a></button>
             </div>
           </div>
         </div>

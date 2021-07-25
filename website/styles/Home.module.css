@@ -33,8 +33,6 @@
 
 .navLeft h1 {
   margin-left: 15px;
-  font-size: var(--font-size-5);
-  font-weight: var(--font-w-black);
 }
 
 .navLeft svg {
@@ -57,6 +55,7 @@
 }
 
 .navRight {
+  margin-right: 35px;
   width: 20%;
   display: flex;
   flex-direction: row;
@@ -64,10 +63,21 @@
   align-items: center;
 }
 
+.navRight button {
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 20px;
+  padding: 15px 30px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-size: var(--font-size-7);
+  font-weight: var(--font-w-bold);
+}
+
 .middle {
   width: 100%;
   height: 75%;
-  background-color: aquamarine;
+  background-color: brown;
 }
 
 .bottom {

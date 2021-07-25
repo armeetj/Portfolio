@@ -59,6 +59,17 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-w-black);
+}
+
+h2 {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-w-black);
+}
+
+
 * {
   box-sizing: border-box;
 }
