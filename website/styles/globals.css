@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global Variables */
+:root {
+  /* Theme Information */
+  --theme-name: "default";
+  --theme-information: "default";
+  --theme-alias: "DFT";
+  --theme-version: "1.0.0";
+  --theme-author: "Armeet Jatyani";
+  
+  /* Colors */
+  --dark: #000000;
+  --light: #ffffff;
+  --primary: #00ffcc;
+  --secondary: #8800ee;
+  --tertiary: #aa55ff;
+
+  /* Fonts */
+  --font-primary: Spartan;
+  --font-mono: Oxygen Mono;
+  --font-playful: Roboto Slab;
+
+  /* Font Sizes */
+  --font-size-1: 100px;
+  --font-size-2: 80px;
+  --font-size-3: 72px;
+  --font-size-4: 64px;
+  --font-size-5: 48px;
+  --font-size-6: 24px;
+  --font-size-7: 18px;
+  --font-size-8: 16px;
+  --font-size-9: 14px;
+  --font-size-10: 12px;
+
+  /* Font Weights */
+  --font-w-black: 900;
+  --font-w-bold: 700;
+  --font-w-semibold: 600;
+  --font-w-medium: 500;
+  --font-w-light: 300;
+  --font-w-extralight: 200;
+  --font-w-white: 100;
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-primary), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
