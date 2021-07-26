@@ -16,7 +16,8 @@
   --light: #ffffff;
   --primary: #00ffcc;
   --secondary: #8800ee;
-  --tertiary: #aa55ff;
+  --tertiary: #bb66ff;
+  --quartiary: #A157FF;
 
   /* Fonts */
   --font-primary: Spartan;
@@ -47,7 +48,8 @@
 }
 
 html,
-body {
+body,
+button {
   padding: 0;
   margin: 0;
   font-family: var(--font-primary), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
