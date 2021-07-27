@@ -1,8 +1,8 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Navbar.module.css";
 
 export default function Navbar() {
 	return (
-		<div className={styles.top}>
+		<div className={styles.container}>
 			<div className={styles.nav}>
 				<div className={styles.navLeft}>
 					<a href="#">

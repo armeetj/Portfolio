@@ -16,7 +16,7 @@ export default function Home() {
 		<div className={styles.container}>
 			<Header />
 			<Navbar />
-			<div className={styles.middle}>
+			<div className={styles.hero}>
 				<div className={styles.heroLeft}>
 					<h2 className="heroGreeting">Hi,</h2>
 					<h1 className="heroTitle">
