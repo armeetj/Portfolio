@@ -3,79 +3,7 @@
   height: 100vh;
 }
 
-.top {
-  width: 100%;
-  height: 15%;
-  background-color: var(--light);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav {
-  width: 80%;
-  height: 60%;
-  border-radius: 100px;
-  background-color: var(--primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navLeft {
-  width: 20%;
-  margin-left: 35px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.navLeft h1 {
-  margin-left: 15px;
-}
-
-.navLeft svg {
-  position: relative;
-  top: -5px;
-  width: 36px;
-}
-
-.navMiddle {
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.navMiddle a {
-  margin: 0px 3%;
-  font-size: var(--font-size-7);
-  font-weight: var(--font-w-bold);
-}
-
-.navRight {
-  margin-right: 60px;
-  width: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.navRight button {
-  margin-left: 10px;
-  border: 0px;
-  border-radius: 60px;
-  padding: 15px 30px;
-  background-color: var(--dark);
-  color: var(--primary);
-  font-size: var(--font-size-7);
-  font-weight: var(--font-w-bold);
-}
-
-.middle {
+.hero {
   overflow: hidden;
   width: 100%;
   height: 75%;
@@ -84,7 +12,7 @@
   align-items: center;
 }
 
-.middle .heroLeft {
+.hero .heroLeft {
   height: 100%;
   width: 40%;
   margin-left: 10%;
@@ -95,34 +23,34 @@
 }
 
 
-.middle .heroLeft p {
+.hero .heroLeft p {
   font-size: var(--font-size-6);
   font-weight: var(--font-w-bold);
   padding: 0px;
   margin: 20px 0px;
 }
 
-.middle .heroLeft a {
+.hero .heroLeft a {
   color: var(--secondary);
 }
-.middle .heroLeft span {
+.hero .heroLeft span {
   color: var(--primary);
 }
 
-.middle .heroLeft h1 {
+.hero .heroLeft h1 {
   margin: 0px;
   margin-bottom: 30px;
   font-size: var(--font-size-3);
   color: var(--dark);
 }
 
-.middle .heroLeft h2 {
+.hero .heroLeft h2 {
   margin: 0px;
   font-size: var(--font-size-5);
   color: var(--dark);
 }
 
-.middle .heroRight {
+.hero .heroRight {
   height: 100%;
   width: 40%;
   margin-right: 10%;
@@ -133,7 +61,7 @@
   justify-content: center;
 }
 
-.middle .heroRight .card {
+.hero .heroRight .card {
   width: 70%;
   height: 80%;
   background: radial-gradient(50% 50% at 50% 50%, var(--secondary) 0%, var(--tertiary) 0.01%, var(--quartiary) 100%);
@@ -146,13 +74,16 @@
   border-radius: 35px;
 }
 
-.middle .heroRight .card svg {
+.hero .heroRight .card svg {
   margin: 20px 10px;
   width: 36px;
 }
+<<<<<<< HEAD
 
 .bottom {
   width: 100%;
   height: 10%;
   background-color: bisque;
 }
+=======
+>>>>>>> abstraction
