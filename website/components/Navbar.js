@@ -12,23 +12,22 @@ export default function Navbar() {
 							<path d="M30.5 20.4L30.5429 20.4006" stroke="#00F7CA" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
 						</svg>
 					</a>
-
 					<a href="#">
 						<h1>Armeet.</h1>
 					</a>
 				</div>
 				<div className={styles.navMiddle}>
-					<a href="#">About</a>
-					<a href="#">Projects</a>
-					<a href="#">Contact</a>
-					<a href="#">Socials</a>
+					<a href="/about">/about</a>
+					<a href="/projects">/projects</a>
+					<a href="/contact">/contact</a>
+					<a href="/socials">/socials</a>
 				</div>
 				<div className={styles.navRight}>
-					<a className={styles.button} href="#">
-						Blog
+					<a className={styles.button} href="/blog">
+						/blog
 					</a>
-					<a className={styles.button} href="#">
-						Resume
+					<a className={styles.button} href="/resume">
+						/resume
 					</a>
 				</div>
 			</div>

@@ -41,7 +41,7 @@ export default function Footer() {
 							<path d="M6 21C7.65685 21 9 19.6569 9 18C9 16.3431 7.65685 15 6 15C4.34315 15 3 16.3431 3 18C3 19.6569 4.34315 21 6 21Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
 							<path d="M18 9C18 11.3869 17.0518 13.6761 15.364 15.364C13.6761 17.0518 11.3869 18 9 18" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
 						</svg>
-						<p>v1.0.0</p>
+						<p>v0.0.0</p>
 					</a>
 				</div>
 			</div>

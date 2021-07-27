@@ -14,7 +14,16 @@ import armeet_circle from "../public/armeet_circle.png";
 export default function Home() {
 	return (
 		<div className={styles.container}>
-			<Header />
+			<Header title="Armeet." desc="Armeet Singh Jatyani. My personal website." url="https://armeet.com" />
+			<div className={styles.overlay}>
+				<div className={styles.overlayCard}>
+					<div className={styles.overlayContent}>
+						<h3>Versions</h3>
+						<h4>v0.0.0</h4>
+						<p>Initial version.</p>
+					</div>
+				</div>
+			</div>
 			<Navbar />
 			<div className={styles.hero}>
 				<div className={styles.heroLeft}>
