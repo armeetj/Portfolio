@@ -1,11 +1,10 @@
 import styles from "../styles/Footer.module.css";
-
-export default function Footer() {
+export default function Footer(props) {
 	return (
 		<div className={styles.container}>
 			<div className={styles.footer}>
 				<div className={styles.footerLeft}>
-					<a href="#">
+					<a href="#" onClick={props.toggleShowThemeOverlay}>
 						<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M8 16C9.10457 16 10 15.1046 10 14C10 12.8954 9.10457 12 8 12C6.89543 12 6 12.8954 6 14C6 15.1046 6.89543 16 8 16Z" fill="black" />
 							<path d="M10 11C11.1046 11 12 10.1046 12 9C12 7.89543 11.1046 7 10 7C8.89543 7 8 7.89543 8 9C8 10.1046 8.89543 11 10 11Z" fill="black" />
@@ -34,7 +33,7 @@ export default function Footer() {
 					</a>
 				</div>
 				<div className={styles.footerRight}>
-					<a href="#">
+					<a href="#" onClick={props.toggleShowVersionOverlay}>
 						<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M6 3V15" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
 							<path d="M18 9C19.6569 9 21 7.65685 21 6C21 4.34315 19.6569 3 18 3C16.3431 3 15 4.34315 15 6C15 7.65685 16.3431 9 18 9Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />

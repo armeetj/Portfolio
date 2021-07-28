@@ -2,6 +2,7 @@
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import React, { useState } from "react";
 
 // @Styles
 import styles from "../styles/Home.module.css";
@@ -12,15 +13,35 @@ import armeet_circle from "../public/armeet_circle.png";
 
 // @Content
 export default function Home() {
+	let [showVersionOverlay, setShowVersionOverlay] = useState(false);
+	let [showThemeOverlay, setShowThemeOverlay] = useState(false);
+
+	function toggleShowVersionOverlay() {
+		showVersionOverlay = setShowVersionOverlay(!showVersionOverlay);
+	}
+
+	function toggleShowThemeOverlay() {
+		showThemeOverlay = setShowThemeOverlay(!showThemeOverlay);
+	}
+
 	return (
 		<div className={styles.container}>
 			<Header title="Armeet." desc="Armeet Singh Jatyani. My personal website." url="https://armeet.com" />
-			<div className={styles.overlay}>
+			<div
+				style={{
+					display: showVersionOverlay ? "flex" : "none",
+				}}
+				onClick={toggleShowVersionOverlay}
+				className={styles.overlay}
+			>
 				<div className={styles.overlayCard}>
 					<div className={styles.overlayContent}>
 						<h3>Versions</h3>
 						<h4>v0.0.0</h4>
 						<p>Initial version.</p>
+					</div>
+					<div className={styles.overlayFooter}>
+						<p>( Click anywhere to close )</p>
 					</div>
 				</div>
 			</div>
@@ -99,7 +120,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			<Footer toggleShowVersionOverlay={toggleShowVersionOverlay} toggleShowThemeOverlay={toggleShowThemeOverlay} />
 		</div>
 	);
 }

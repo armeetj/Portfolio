@@ -1,4 +1,5 @@
 import styles from "../styles/Navbar.module.css";
+import Link from "next/link";
 
 export default function Navbar() {
 	return (
@@ -17,10 +18,21 @@ export default function Navbar() {
 					</a>
 				</div>
 				<div className={styles.navMiddle}>
-					<a href="/about">/about</a>
-					<a href="/projects">/projects</a>
-					<a href="/contact">/contact</a>
-					<a href="/socials">/socials</a>
+					<Link href="/about">
+						<a href="/about">/about</a>
+					</Link>
+
+					<Link href="/projects">
+						<a href="/projects">/projects</a>
+					</Link>
+
+					<Link href="/contact">
+						<a href="/contact">/contact</a>
+					</Link>
+
+					<Link href="/socials">
+						<a href="/socials">/socials</a>
+					</Link>
 				</div>
 				<div className={styles.navRight}>
 					<a className={styles.button} href="/blog">
