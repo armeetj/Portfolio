@@ -1,7 +1,9 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
 
-export default function Navbar() {
+
+export default function Navbar(props) {
+    console.log(props.current);
 	return (
 		<div className={styles.container}>
 			<div className={styles.nav}>
@@ -17,7 +19,8 @@ export default function Navbar() {
 						<h1 className={styles.title}>Armeet.</h1>
 					</Link>
 				</div>
-				<div className={styles.right}>
+                <div className={styles.right}>
+                    <div className={styles.dot}></div>
 					<Link href="/">
 						<a>Home</a>
                     </Link>

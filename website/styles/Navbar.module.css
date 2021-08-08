@@ -1,5 +1,4 @@
 .container {
-	background: red;
 	height: 15vh;
 	width: 100%;
 	display: flex;
@@ -10,7 +9,6 @@
 .nav {
 	width: 70%;
 	height: 80%;
-	background: green;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,7 +17,6 @@
 .left {
 	width: 50%;
 	height: 100%;
-	background: yellow;
 	display: flex;
 	align-items: center;
 }
@@ -31,8 +28,8 @@
 }
 
 .left .logo {
-    position: relative;
-    top: -2px;
+	position: relative;
+	top: -2px;
 	width: 24px;
 	height: 24px;
 	margin-right: 10px;
@@ -47,8 +44,8 @@
 }
 
 .left .title {
-    font-weight: 900;
-    font-size: 24px;
+	font-weight: 900;
+	font-size: 24px;
 	font-family: var(--font-1);
 	color: var(--color-3);
 }
@@ -56,15 +53,41 @@
 .right {
 	width: 50%;
 	height: 100%;
-	background: blue;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .right a {
-    font-family: var(--font-1);
-    font-weight: 900;
-    font-size: 16px;
-    margin-left: 7%;
+	font-family: var(--font-1);
+	font-weight: 900;
+	font-size: 16px;
+	margin-left: 7%;
+}
+
+.right .dot {
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	background-color: var(--color-1);
+	position: absolute;
+	animation: pulse 2s infinite;
+    transition: all 2s ease-in-out;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.8);
+		box-shadow: 0 0 0 0 var(--color-1-80);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 7px var(--color-1-00);
+	}
+
+	100% {
+		transform: scale(0.8);
+		box-shadow: 0 0 0 0 var(--color-1-00);
+	}
 }

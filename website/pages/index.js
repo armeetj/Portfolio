@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Header title="Armeet." description="Hi, I'm Armeet. Check out my personal website!" />
-      <Navbar />
+      <Navbar current="home" />
     </div>
   )
 }
