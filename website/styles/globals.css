@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
-  --font-1: Spartan, sans-serif;
-  --font-2: Ubuntu, Roboto, sans-serif;
-  --font-3: Ubuntu Mono, Roboto Mono, monospace;
-  
-  --color-1: #00FFF0;
-  --color-2: #fff;
-  --color-3: #000;
+	--font-1: Spartan, sans-serif;
+	--font-2: Ubuntu, Roboto, sans-serif;
+	--font-3: Ubuntu Mono, Roboto Mono, monospace;
+
+	--color-1: #00fff0;
+	--color-2: #fff;
+	--color-3: #000;
 }
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: var(--font-2);
+	padding: 0;
+	margin: 0;
+	font-family: var(--font-2);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }

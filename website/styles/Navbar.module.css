@@ -1,0 +1,70 @@
+.container {
+	background: red;
+	height: 15vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav {
+	width: 70%;
+	height: 80%;
+	background: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left {
+	width: 50%;
+	height: 100%;
+	background: yellow;
+	display: flex;
+	align-items: center;
+}
+
+.left .logo,
+.left .title {
+	cursor: pointer;
+	user-select: none;
+}
+
+.left .logo {
+    position: relative;
+    top: -2px;
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+
+.left .logo .ghostBody {
+	fill: var(--color-3);
+}
+
+.left .logo .ghostEye {
+	stroke: var(--color-2);
+}
+
+.left .title {
+    font-weight: 900;
+    font-size: 24px;
+	font-family: var(--font-1);
+	color: var(--color-3);
+}
+
+.right {
+	width: 50%;
+	height: 100%;
+	background: blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right a {
+    font-family: var(--font-1);
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 7%;
+}
