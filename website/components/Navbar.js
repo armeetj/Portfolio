@@ -27,7 +27,7 @@ export default function Navbar(props) {
 						<a className={styles[props.current == "projects" ? "current" : ""]}>Projects</a>
 					</Link>
 					<Link href="/contact">
-						<a className={styles[props.current == "contact" ? "current" : ""]}>Contact</a>
+						<a className={styles[props.current == "contact" ? "current" : ""]}>Contacts</a>
 					</Link>
 					<Link href="/about">
 						<a className={styles[props.current == "about" ? "current" : ""]}>About</a>

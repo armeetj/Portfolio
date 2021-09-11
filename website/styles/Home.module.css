@@ -46,8 +46,9 @@
     stroke: var(--color-3);
 }
 
-.socialsButton:hover {
+.socialsButton:hover, .socialsButton:focus {
     animation: pop-out 0.3s both;
+    outline: none;
 }
 
 .socialsButton:active {

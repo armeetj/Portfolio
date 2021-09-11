@@ -85,9 +85,14 @@
 	margin-left: 2%;
 }
 
-.right a:hover {
+.right a:hover, .right a:focus{
 	animation: pop-out 0.3s both;
 	background-color: var(--color-4);
+}
+
+.right a:focus {
+	outline: none;
+	/* box-shadow: 0px 0px 0px 7px var(--color-1); */
 }
 
 .right a:active {
@@ -98,6 +103,7 @@
 .current {
 	font-weight: 900 !important;
 }
+
 
 @keyframes pop-out {
 	0% {
