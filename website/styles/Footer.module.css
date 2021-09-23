@@ -1,8 +1,79 @@
 .container {
-    background: red;
+    background: var(--color-2);
     height: 10vh;
     width: 100%;
     display: flex;
+    flex-direction: horizontal;
     justify-content: center;
     align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.left p {
+    font-family: var(--font-1);
+    font-weight: 900;
+    margin-left: 4px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.center svg {
+    margin: 0px 20px;
+    transition: rotate 0.3s ease-in-out;
+}
+
+.center svg:hover {
+    animation: pop-out 0.3s both;
+}
+
+.center svg:active {
+    animation: pop-in 0.3s both;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.right p {
+    font-family: var(--font-1);
+    font-weight: 900;
+    margin-left: 4px;
+}
+
+@keyframes pop-out {
+	0% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes pop-in {
+	0% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(0.95);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
