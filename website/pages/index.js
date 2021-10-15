@@ -16,7 +16,7 @@ export default function Home() {
 					<Image src={profilePic} />
 				</div>
 				<h1>Hi, I'm <span>Armeet</span>!</h1>
-				<p>
+				<p> 
 					Student @EVHS<br></br>Status: Grinding college apps...
 				</p>
 
